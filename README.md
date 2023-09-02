@@ -4,10 +4,18 @@
 
 This is a sudy of Instacart's customers and their spending behaviors. The aim is to identify distinct customer segments and gather information about their spending patterns to better inform targeted marketing campaigns. 
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Questions](#key-questions)
+- 
+
+
 ## Project Overview
 
 In order to answer the key questions listed below, I cleaned and joined 3 datasets to analyze total sales data, create customer profiles, and compare consumption across variables  
 
+## Key Questions
 ## Sales Team Analytics Goals
 
 1. **Busiest Days and Hours Analysis**: The sales team needs to determine the busiest days of the week and hours of the day, i.e., the days and times with the most orders.
