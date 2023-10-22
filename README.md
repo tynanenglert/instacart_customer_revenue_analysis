@@ -1,34 +1,26 @@
-# Instacart Grocery Basket Analysis
+# Instacart Customer Analysis 
+This is a study of Instacart’s customers that seeks to analyze purchasing behaviors.  The aim is to identify distinct customer segments and gather information about consumption patterns to better inform targeted marketing campaigns.
 
-**Instacart is looking to learn more about their sales patterns**
+## Table of Contents
 
-This is a sudy of Instacart's customers and their spending behaviors. The aim is to identify distinct customer segments and gather information about their spending patterns to better inform targeted marketing campaigns.
+- Data Sources
+- Getting Started
+- Data Analysis
+- Results
 
-## Project Overview
+## Data Sources
 
-In order to address the key items listed below, I cleaned and joined 3 datasets to analyze total sales data, create customer profiles, and compare consumption across variables  
+This is a publicly dataset of Instacart online grocery shopping from 2017.  
 
-## Sales Team Analytics Goals
+## Getting Started
 
-1. **Busiest Days and Hours Analysis**: The sales team needs to determine the busiest days of the week and hours of the day, i.e., the days and times with the most orders.
+To begin this analysis, I imported the dataset into Jupyter Notebooks and performed the necessary cleaning and consistency checks to prepare the data for further analysis.  I merged customer, product and department tables into a unified dataset and derived new variables such as order frequency, spending amount, and customer loyalty.
 
-2. **Peak Spending Times**: Identifying whether there are specific times of the day when customers tend to spend the most money is crucial.
+## Data Analysis 
 
-3. **Product Popularity Analysis**: The marketing and sales teams want to determine which types of products are more popular than others. 
+I took the cleaned and combined data and grouped customers based on age, income, family status, and specific shopping categories.  Using crosstabs, I analyzed each group across region, department, spending amount and order frequency.  I plotted each crosstab into bar charts to better visualize the results, and identify any distinctions among categories.  
 
-## Marketing and Sales Teams' Customer Analysis Goals
+## Results
 
-1. **Brand Loyalty Analysis**:
-   - What's the distribution among users in regards to their brand loyalty (i.e., how often do they return to Instacart)?
-   - Are there differences in ordering habits based on a customer's loyalty status?
+My analysis didn’t identify any significant differences among these groups with regard to purchasing habits, but the categories I added provide a good jumping off point for further analysis.  A future addition to this analysis could be a cluster analysis using Kmeans, and using the categories from this analysis to better understand each cluster.  
 
-2. **Regional Ordering Habits**:
-   - Are there differences in ordering habits based on a customer's region?
-
-3. **Demographic Analysis**:
-   - Is there a connection between age and family status in terms of ordering habits?
-   - What different classifications does the demographic information suggest? (e.g., Age, Income, Certain types of goods, Family status)
-
-4. **Customer Profile Differences**:
-   - What differences can be found in the ordering habits of different customer profiles?
-   - Consider aspects like the price of orders, the frequency of orders, the types of products customers are ordering, and any other relevant factors.
